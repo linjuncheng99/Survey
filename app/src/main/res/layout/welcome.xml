@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  Start : Your code should be within this block -->
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="42dp"
+        android:padding="5dp"
+        android:text="WELCOME TO"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="98dp"
+        android:padding="5dp"
+        android:text="TAKE PART IN OUR SURVEY"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:padding="3dp"
+        android:text="Before we start,here are somrthings you should know"
+        android:textColor="#A9A9A9"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/text_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:lineSpacingExtra="18dp"
+        android:padding="3dp"
+        android:singleLine="false"
+        android:text="- Please be honest when you making choice\n- We are just doing a reaserch so you don't have fake your information.\n- Please follow the step we designed for you and don't skip any questions"
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/acceptRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:layout_marginBottom="119dp"
+        android:padding="3dp"
+        android:text="I accept these requests"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:text="LET'S START"
+        android:textSize="18dp"
+        android:background="#238E68"/>
+
+
+    <!-- END    : Your code should be within this block -->
+</RelativeLayout>
